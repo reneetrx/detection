@@ -1,0 +1,6 @@
+detection/dataset/
+
+dataset/
+urns/
+venv/
+*.pt

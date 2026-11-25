@@ -5,10 +5,8 @@ from pathlib import Path
 from PIL import Image
 import kagglehub
 
-# Replace with your new Kaggle dataset slug
 download_path = Path(kagglehub.dataset_download("redzapdos123/aerial-view-of-vehicles-and-humans-dataset-yolo"))
 
-# Index all images (.jpg / .jpeg / .png)
 all_images = (
     list(download_path.rglob("*.jpg"))
     + list(download_path.rglob("*.jpeg"))
